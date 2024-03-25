@@ -1,0 +1,91 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    Display: Flex;
+    Flex-direction: Row;
+}
+
+.container2 {
+    Display: Flex;
+    Flex-direction: Row;
+    Justify-content: End;
+
+}
+
+.container3 {
+    Display: Flex;
+    Flex-direction: Row;
+    Justify-content: Center;
+}
+
+.container4 {
+    Display: Flex;
+    Flex-direction: Row;
+    Justify-content: Space-between;
+}
+.container5 {
+    display: Flex;
+    flex-direction: Row;
+    justify-content: Space-around;
+    
+}
+.container6 {
+    Display: Flex;
+    Flex-direction: Row;
+    Justify-content: Space-evenly;
+    
+}
+
+.containerB {
+    Display: Flex;
+    Flex-direction: Column-reverse;
+
+}
+.container-desafio {
+    Display: Flex;
+    Flex-direction: Row-reverse;
+    Justify-content: Start; 
+}
+
+/* Row = Fazendo uma linha, Flex = Flexível, End = Fim da pág, Center = Meio da pág, 
+Space-between = Um espaço de um quadrado para o outro, Space-around = Espaço ao redor dos quadrados,
+Space-evenly = Um espaço igual um do outro, Column-reverse = Coluna ao contrário, 
+Row-reverse = Linha ao contrário.
+Justify-content = É em que lugar da pagina vai ficar
+Flex-direction = É como ele vai ficar, se vai ficar em linha, em coluna ou ao contrário.
+ */
